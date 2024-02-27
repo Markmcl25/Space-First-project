@@ -4,7 +4,14 @@
      margin: 0;
      box-sizing: border-box;
 }
-
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Project style */
+    color: black;
+}
 
 /* Header */
 header {
@@ -13,6 +20,9 @@ header {
 /* Main */
 main {
     background-color: lightpink;
+    /* Push footer down below main and to bottom of the page as well as make main take up majority of screen */
+    flex: 1 0 auto;
+
 }
 /* Footer */
 footer {
