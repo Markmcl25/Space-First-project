@@ -15,12 +15,16 @@ body {
     flex-direction: column;
     /* Project style */
     color: black;
-    font-family: 'Jost';
+    font-family: 'Jost', sans-serif;
 }
 
 /* Header */
 header {
     background-color: lightblue;
+}
+
+h1 {
+    
 }
 /* Main */
 main {
