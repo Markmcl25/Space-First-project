@@ -20,11 +20,20 @@ body {
 
 /* Header */
 header {
-    background-color: lightblue;
+    background-color: 	#010b19;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    font-size: smaller;
+    box-shadow: 0 3px 3px white;
+    text-align: left;
+    
 }
 
 h1 {
     font-family: 'poppins', sans-serif;
+    color: azure;
 }
 /* Main */
 main {
