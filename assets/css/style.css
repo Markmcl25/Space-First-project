@@ -37,6 +37,10 @@ header a {
     letter-spacing: 2px;
 }
 
+#menu {
+    list-style-type: none;
+}
+
 #menu > li {
     margin-bottom: 1em;
 }
@@ -54,10 +58,11 @@ nav {
     box-shadow: 0 2px 2px white;
     display: none;
     top: 100%;
+    color: white;
 }
 
 /* Nav toggle */
-#nav-toggle:checked ~ nav {
+#nav-toggle:checked~nav {
     display: block;
 }
 
@@ -68,7 +73,9 @@ nav {
 .nav-toggle-label {
     font-size: larger;
     font-weight: 100;
+    margin-right: 1rem;
 }
+
 
 h1 {
     font-family: 'poppins', sans-serif;
@@ -84,11 +91,13 @@ h1 {
 }
 /* Main */
 main {
-    background-color: lightpink;
+    background-color: 	#05377b;
     /* Push footer down below main and to bottom of the page as well as make main take up majority of screen */
     flex: 1 0 auto;
-
+    margin-top: 47px;
+    color: aliceblue;
 }
+
 /* Footer */
 footer {
     background-color: beige;
