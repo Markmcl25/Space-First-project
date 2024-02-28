@@ -28,7 +28,8 @@ header {
     font-size: smaller;
     box-shadow: 0 3px 3px white;
     text-align: left;
-    
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
@@ -53,6 +54,11 @@ nav {
     box-shadow: 0 2px 2px white;
     display: none;
     top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked ~ nav {
+    display: block;
 }
 
 h1 {
