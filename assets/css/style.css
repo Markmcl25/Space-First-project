@@ -50,8 +50,9 @@ nav {
     width: 100%;
     padding: 1rem 0;
     right: 0;
-    box-shadow: 0 2px 2px;
+    box-shadow: 0 2px 2px white;
     display: none;
+    top: 100%;
 }
 
 h1 {
