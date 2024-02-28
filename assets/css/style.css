@@ -61,6 +61,15 @@ nav {
     display: block;
 }
 
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: larger;
+    font-weight: 100;
+}
+
 h1 {
     font-family: 'poppins', sans-serif;
     color: azure;
