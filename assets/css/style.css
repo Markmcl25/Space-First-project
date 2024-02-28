@@ -33,11 +33,20 @@ header {
 
 header a {
     text-decoration: none;
+    letter-spacing: 2px;
 }
 
 h1 {
     font-family: 'poppins', sans-serif;
     color: azure;
+    text-decoration: solid;
+}
+
+#menu {
+    font-size: larger;
+    letter-spacing: 5px;
+    list-style-type: none;
+    color: aliceblue;
 }
 /* Main */
 main {
