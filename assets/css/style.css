@@ -43,6 +43,17 @@ header a {
     border-bottom: 2px solid white;
 }
 
+/* Navbar styles and drop down menu */
+nav {
+    position: absolute;
+    background-color: #010b19;
+    width: 100%;
+    padding: 1rem 0;
+    right: 0;
+    box-shadow: 0 2px 2px;
+    display: none;
+}
+
 h1 {
     font-family: 'poppins', sans-serif;
     color: azure;
