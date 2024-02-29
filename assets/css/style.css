@@ -55,6 +55,8 @@ h1 {
     border-bottom: 2px solid white;
 }
 
+
+
 /* Navbar styles and drop down menu */
 nav {
     position: absolute;
@@ -118,11 +120,16 @@ main {
     list-style: none;
     
 }
+
+#social-networks i {
+    font-size: 160%;
+}
+
 footer {
     background-color: #010b19;
     padding: 1rem 0;
-    box-shadow: 1px 0 0 white;
-    color: aliceblue;
+
+    color: inherit;
 }
 
 
