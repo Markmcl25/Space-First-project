@@ -27,7 +27,7 @@ header {
     width: 100%;
     font-size: smaller;
     box-shadow: 0 3px 3px white;
-    text-align: flex;
+    text-align: right;
     justify-content: space-between;
     align-items: baseline;
 }
@@ -110,6 +110,9 @@ main {
 /* Footer */
 footer {
     background-color: #010b19;
+    padding: 1rem 0;
+    box-shadow: 1px 0 0 white;
+    color: aliceblue;
 }
 
 
