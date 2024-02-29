@@ -107,7 +107,16 @@ main {
     color: aliceblue;
 }
 
+
 /* Footer */
+
+#social-networks {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
 footer {
     background-color: #010b19;
     padding: 1rem 0;
