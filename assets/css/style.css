@@ -109,6 +109,13 @@ main {
     color: aliceblue;
 }
 
+#hero {
+
+    height: 800px;
+    width: 100%;
+    background: url("../css/images/milky-way-2695569_1280.jpg") no-repeat center/cover;
+}
+
 
 /* Footer */
 
