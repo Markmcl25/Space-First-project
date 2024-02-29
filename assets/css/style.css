@@ -109,6 +109,7 @@ main {
     color: aliceblue;
 }
 
+/* Hero image */
 #hero {
 
     height: 800px;
@@ -127,6 +128,8 @@ main {
     list-style: none;
     
 }
+
+/* Social media links */
 
 #social-networks i {
     font-size: 160%;
