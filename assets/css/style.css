@@ -18,6 +18,7 @@ body {
     font-family: 'Jost', sans-serif;
 }
 
+
 /* Header */
 header {
     background-color: 	#010b19;
@@ -115,6 +116,20 @@ main {
     height: 800px;
     width: 100%;
     background: url("../css/images/milky-way-2695569_1280.jpg") no-repeat center/cover;
+    position: relative;
+}
+
+/* Cover text */
+#cover-text {
+    background-color:#05377b;
+    font-size: 100%;
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    margin-bottom: 1.5em;
 }
 
 
@@ -143,5 +158,35 @@ footer {
     color: inherit;
 }
 
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+nav {
+    display: block;
+    position: relative;
+    width:fit-content
+}
+#menu {
+    display: flex;
+}
+#menu >li {
+padding-left: 1 rem
+;
+}
+.nav-toggle-label {
+    display: none;
+}
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
 
+#cover-text {
+    margin-bottom: 1.5em;
+}
 
+#nav {
+    margin-bottom: 1.5em;
+}
+}
