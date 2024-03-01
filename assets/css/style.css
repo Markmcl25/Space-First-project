@@ -170,9 +170,11 @@ nav {
     display: block;
     position: relative;
     width:fit-content;
+    text-align: center;
 }
 #menu {
     display: flex;
+    text-align: center;
 }
 #menu >li {
 padding-left: 1 rem
@@ -189,7 +191,7 @@ padding-left: 1 rem
 
 #cover-text {
     margin-bottom: 1.5em;
-    height: 50%;
+    height: 10%%;
 }
 #hero {
     height: 800px;
