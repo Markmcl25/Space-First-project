@@ -93,6 +93,7 @@ h1 {
     font-family: 'poppins', sans-serif;
     color: azure;
     text-decoration: solid;
+    font-size: medium;
 }
 
 #menu {
@@ -105,11 +106,12 @@ h1 {
 
 #logo {
     margin: 0 0.5rem;
-    padding-top: 10px;
+    padding-top: 20
+px;
 }
 /* Main */
 main {
-    background: url("../css/images/milky-way-2695569_1280.jpg") no-repeat center/cover;
+    background: url('../css/images/FreeVector-Space-Vector-Background.jpg');
     /* Push footer down below main and to bottom of the page as well as make main take up majority of screen */
     flex: 1 0 auto;
     margin-top: 47px;
@@ -122,23 +124,27 @@ main {
 
     height: 900px;
     width: 100%;
-    background: url("../css/images/milky-way-2695569_1280.jpg") no-repeat center/cover;
+    background: url('../css/images/FreeVector-Space-Vector-Background.jpg');
     position: relative;
+    
 }
 
 /* Cover text */
 #cover-text {
-    background-color:#010b19a9;
+    background-color:#010b19;
     font-size: 100%;
     position: absolute;
     bottom: 60px;
     width: 50%;
     min-height: 200px;
     padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 10px;
+    padding-right: 10px;
     margin-bottom: 1.5em;
     text-align: center;
     box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.514);
+    
 }
 
 #timeline {
@@ -148,6 +154,12 @@ main {
     padding-bottom: 30px;
     padding-left: 3px;
     padding-right: 3px;
+    padding-top: 30px;
+}
+
+#circle-image {
+    background: url('../css/images/circle\ image.jpg') no-repeat top center / cover
+;
 }
 
 
@@ -227,8 +239,14 @@ padding-left: 1 rem
 #hero {
     height: 800px;
     width: 100%;
-    background: url("../css/images/milky-way-2695569_1280.jpg") no-repeat center/cover;
+    background: white;
     position: relative;
+}
+
+/* Cosmic events */
+
+#cosmic-events {
+    
 }
 
 #logo {
