@@ -113,6 +113,7 @@ main {
     color: aliceblue;
 }
 
+
 /* Hero image */
 #hero {
 
@@ -189,9 +190,23 @@ padding-left: 1 rem
         border-bottom: 1px solid #3a3a3a;
     }
 
+    /* The milky way */
+
+    #photos {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 16px; 
+    }
+    
+    #photos img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
 #cover-text {
     margin-bottom: 1.5em;
-    height: 10%%;
+    height: 10%;
 }
 #hero {
     height: 800px;
@@ -203,5 +218,7 @@ padding-left: 1 rem
 h1 {
     padding-top: 0%;
 }
-}
+
+/* The milky way */
+
 }
