@@ -125,7 +125,7 @@ main {
 
 /* Cover text */
 #cover-text {
-    background-color:#010b19;
+    background-color:#010b19a9;
     font-size: 100%;
     position: absolute;
     bottom: 60px;
@@ -228,7 +228,7 @@ h1 {
 
 .centered-container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 0;
 }
 
 /* Example styling for the form elements */
@@ -279,4 +279,5 @@ h1 {
         }
 }
 
+}
 }
