@@ -171,6 +171,8 @@ main {
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: 5px white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -257,9 +259,6 @@ padding-left: 1 rem
 
 /* Cosmic events */
 
-#cosmic-events {
-    
-}
 
 #logo {
     color: #fff;
