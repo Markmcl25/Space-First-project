@@ -194,12 +194,12 @@ padding-left: 1 rem
 
     #photos {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        columns: 2;
         gap: 16px; 
     }
     
     #photos img {
-        width: 100%;
+        width: 50%;
         height: auto;
         display: block;
     }
@@ -221,4 +221,5 @@ h1 {
 
 /* The milky way */
 
+}
 }
