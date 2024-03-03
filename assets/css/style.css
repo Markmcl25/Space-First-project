@@ -219,9 +219,59 @@ h1 {
     padding-top: 0%;
 }
 
-/* The milky way */
+/* Sign up */
 
-#the
+/* Add this CSS to your existing stylesheet */
+#signup {
+    text-align: center;
+}
+
+.centered-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Example styling for the form elements */
+#signup-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.join-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.join-button:hover {
+    background-color: #45a049;
+}
+
+/* Media query to adjust styles for smaller screens if needed */
+@media screen and (max-width: 768px) {
+    .centered-container {
+        max-width: 90%;
+    }
+}
 
 }
 }
