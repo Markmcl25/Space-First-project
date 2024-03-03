@@ -22,7 +22,7 @@ body {
 /* Header */
 header {
     background-color: 	#010b19;
-    padding: 0 1rem;
+    padding: 1 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -71,6 +71,7 @@ nav {
     top: 100%;
     color: white;
     text-align: center;
+    
 }
 
 /* Nav toggle */
@@ -95,14 +96,16 @@ h1 {
 }
 
 #menu {
-    font-size: larger;
+    font-size: medium;
     letter-spacing: 5px;
     list-style-type: none;
     color: aliceblue;
+    word-spacing: 3px;
 }
 
 #logo {
     margin: 0 0.5rem;
+    padding-top: 10px;
 }
 /* Main */
 main {
@@ -129,13 +132,22 @@ main {
     font-size: 100%;
     position: absolute;
     bottom: 60px;
-    width: 100%;
+    width: 50%;
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
     margin-bottom: 1.5em;
     text-align: center;
-    box-shadow: 0 2px 2px white;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.514);
+}
+
+#timeline {
+    font-size: smaller;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 30px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 
@@ -190,18 +202,22 @@ padding-left: 1 rem
         border-bottom: 1px solid #3a3a3a;
     }
 
-    /* The milky way */
+/* The milky way */
 
     #photos {
         display:flex;
-        columns: 1;
+        columns: 2;
         gap: 16px; 
     }
     
     #photos img {
-        width: 100%;
+        width: 50%;
         height: 40px;
-        display:flex;
+        display:inline-block;
+        align-items: center;
+        line-height: 0;
+        padding-left: 2px;
+        padding-right: 2px;
     }
 
 #cover-text {
@@ -215,15 +231,20 @@ padding-left: 1 rem
     position: relative;
 }
 
+#logo {
+    color: #fff;
+}
+
 h1 {
     padding-top: 0%;
 }
 
 /* Sign up */
 
-/* Add this CSS to your existing stylesheet */
+
 #signup {
     text-align: center;
+    padding-left: 5px;
 }
 
 .centered-container {
@@ -231,7 +252,7 @@ h1 {
     margin: 0 0;
 }
 
-/* Example styling for the form elements */
+
 #signup-form {
     background-color: #fff;
     padding: 20px;
@@ -279,5 +300,6 @@ h1 {
         }
 }
 
+}
 }
 }
