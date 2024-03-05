@@ -57,8 +57,6 @@ h1 {
     border-bottom: 2px solid white;
 }
 
-
-
 /* Navbar styles and drop down menu */
 nav {
     position: absolute;
@@ -111,7 +109,7 @@ px;
 }
 /* Main */
 main {
-    background: url('../css/images/FreeVector-Space-Vector-Background.jpg');
+    
     /* Push footer down below main and to bottom of the page as well as make main take up majority of screen */
     flex: 1 0 auto;
     margin-top: 47px;
@@ -124,7 +122,7 @@ main {
 
     height: 900px;
     width: 100%;
-    background: url('../css/images/FreeVector-Space-Vector-Background.jpg');
+    
     position: relative;
     
 }
@@ -135,7 +133,7 @@ main {
     font-size: 100%;
     position: absolute;
     bottom: 60px;
-    
+    width: 100%;
     min-height: 200px;
     padding-top: 40px;
     padding-bottom: 40px;
