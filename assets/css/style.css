@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
 /* Project style */
-    color: black;
+    color: white;
     font-family: 'Jost', sans-serif;
 }
 
@@ -22,15 +22,15 @@ body {
 /* Header */
 header {
     background-color: 	#010b19;
-    padding: 1 1rem;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    font-size: smaller;
+    font-size: medium;
     box-shadow: 0 3px 3px white;
-    text-align: center;
     justify-content: space-between;
     align-items: baseline;
+    display: flex;
 }
 
 header a {
@@ -39,14 +39,19 @@ header a {
 }
 
 h1 {
-    font-family: 'poppins' sans-serif;
-    letter-spacing: 2px;
+    font-family: 'jost' sans-serif;
+    letter-spacing: 4px;
     color: aliceblue;
     padding-top: 10%;
+    text-transform: uppercase;
 }
 
 #menu {
     list-style-type: none;
+    
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    width: 100%;
 }
 
 #menu > li {
@@ -61,21 +66,15 @@ h1 {
 nav {
     position: absolute;
     background-color: #010b19;
-    width: 100%;
-    padding: 1rem 0;
-    left: 0;
-    box-shadow: 0 2px 2px white;
-    display: none;
-    top: 100%;
-    color: white;
-    text-align: center;
+   display: none;
+    padding: 0 1rem;
     
 }
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
-    text-align: center;
+   
 }
 
 #nav-toggle {
@@ -88,7 +87,7 @@ nav {
 
 
 h1 {
-    font-family: 'poppins', sans-serif;
+    font-family: 'jost', sans-serif;
     color: azure;
     text-decoration: solid;
     font-size: large;
@@ -154,14 +153,11 @@ main {
     padding-right: 3px;
     padding-top: 30px;
 }
-
-#circle-image {
-    background: url('../css/images/circle\ image.jpg') no-repeat top center / cover;
+#star-background {
+    background: url('../images/starbackgroundimage.jpg');
     height: 90vw;
     width: 90vw;
-    
-    /* Makes the square image into a circle */
-    border-radius: 45%;
+  
     max-width: 300px;
     max-height: 300px;
     align-items: center;
@@ -172,6 +168,7 @@ main {
     border: 5px white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 
 
 /* Footer */
@@ -223,26 +220,19 @@ padding-left: 1 rem
 @media screen and (min-width: 992px) {
 #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
-    }
+        #signup {
+            text-align: center;
+            padding-left: 5px;
+        }
+        
+        .centered-container {
+            max-width: 600px;
+            margin: 0 0;
+        }
 
-/* The milky way */
-
-    #photos {
-        display:flex;
-        columns: 2;
-        gap: 16px; 
-        flex: 1 0 auto;
     }
     
-    #photos img {
-        width: 50%;
-        height: 40px;
-        display:inline-block;
-        align-items: center;
-        line-height: 0;
-        padding-left: 2px;
-        padding-right: 2px;
-    }
+  
 
 #cover-text {
     margin-bottom: 1.5em;
@@ -324,6 +314,17 @@ h1 {
 @media screen and (min-width: 992px) {
     #menu a:hover{
             border-bottom: 1px solid #3a3a3a;
+            header {
+    background-color: 	#010b19;
+    padding: 1 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    font-size: medium;
+    box-shadow: 0 3px 3px white;
+    text-align: center;
+    justify-content: space-between;
+    align-items: baseline;
         }
 }
 
