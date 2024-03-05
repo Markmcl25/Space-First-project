@@ -26,11 +26,10 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    font-size: medium;
-    box-shadow: 0 3px 3px white;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
     justify-content: space-between;
     align-items: baseline;
-    display: flex;
 }
 
 header a {
@@ -52,6 +51,9 @@ h1 {
     letter-spacing: 4px;
     word-spacing: 5px;
     width: 100%;
+    position: absolute;
+    background-color: #010b19;
+    dis
 }
 
 #menu > li {
@@ -68,6 +70,7 @@ nav {
     background-color: #010b19;
    display: none;
     padding: 0 1rem;
+    
     
 }
 
@@ -99,6 +102,8 @@ h1 {
     list-style-type: none;
     color: aliceblue;
     word-spacing: 3px;
+    position: absolute;
+    width: fit-content;
 }
 
 #logo {
@@ -201,9 +206,10 @@ footer {
     /* Header */
 nav {
     display: block;
-    position: relative;
+    position: absolute;
     width:fit-content;
     text-align: center;
+    right: 0;
 }
 #menu {
     display: flex;
