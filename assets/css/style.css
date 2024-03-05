@@ -1,27 +1,26 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-/*Asterisk wildcard selector to override default styles added by the browser */
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
-     padding: 0;
-     margin: 0;
-     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
 /* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-/* Project style */
+    /* Project style */
     color: white;
     font-family: 'Jost', sans-serif;
 }
 
-
 /* Header */
 header {
-    background-color: 	#010b19;
+    background-color: #010b19;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -46,38 +45,34 @@ h1 {
 }
 
 #menu {
-    list-style-type: none;
-    
+    font-size: 110%;
     letter-spacing: 4px;
-    word-spacing: 5px;
-    width: 100%;
-    position: absolute;
-    background-color: #010b19;
-    dis
+    list-style-type: none;
 }
 
 #menu > li {
     margin-bottom: 1em;
-    letter-spacing: 4px;
 }
+
 .active {
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
 }
 
 /* Navbar styles and drop down menu */
 nav {
     position: absolute;
     background-color: #010b19;
-   display: none;
+    width: 100%;
+    left: 0;
     padding: 0 1rem;
-    
-    
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
 }
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
-   
 }
 
 #nav-toggle {
@@ -88,7 +83,6 @@ nav {
     font-size: 2rem;
 }
 
-
 h1 {
     font-family: 'jost', sans-serif;
     color: azure;
@@ -96,44 +90,29 @@ h1 {
     font-size: large;
 }
 
-#menu {
-    font-size: medium;
-    letter-spacing: 5px;
-    list-style-type: none;
-    color: aliceblue;
-    word-spacing: 3px;
-    position: absolute;
-    width: fit-content;
-}
-
 #logo {
     margin: 0 0.5rem;
-    padding-top: 20
-px;
+    padding-top: 20px;
 }
+
 /* Main */
 main {
-    
-    /* Push footer down below main and to bottom of the page as well as make main take up majority of screen */
+    /* Push footer down below main and to the bottom of the page as well as make main take up the majority of the screen */
     flex: 1 0 auto;
     margin-top: 47px;
     color: aliceblue;
 }
 
-
 /* Hero image */
 #hero {
-
     height: 900px;
     width: 100%;
-    
     position: relative;
-    
 }
 
 /* Cover text */
 #cover-text {
-    background-color:#010b19;
+    background-color: #010b19;
     font-size: 100%;
     position: absolute;
     bottom: 60px;
@@ -146,7 +125,6 @@ main {
     margin-bottom: 1.5em;
     text-align: center;
     box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.514);
-    
 }
 
 #timeline {
@@ -158,11 +136,11 @@ main {
     padding-right: 3px;
     padding-top: 30px;
 }
+
 #star-background {
     background: url('../images/starbackgroundimage.jpg');
     height: 90vw;
     width: 90vw;
-  
     max-width: 300px;
     max-height: 300px;
     align-items: center;
@@ -174,21 +152,16 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-
-
 /* Footer */
-
 #social-networks {
     text-align: center;
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    
 }
 
 /* Social media links */
-
 #social-networks i {
     font-size: 160%;
     color: white;
@@ -197,143 +170,94 @@ main {
 footer {
     background-color: #010b19;
     padding: 1rem 0;
-
     color: inherit;
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
-nav {
-    display: block;
-    position: absolute;
-    width:fit-content;
-    text-align: center;
-    right: 0;
-}
-#menu {
-    display: flex;
-    text-align: center;
-}
-#menu >li {
-padding-left: 1 rem
-;
-}
-.nav-toggle-label {
-    display: none;
-}
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-#menu a:hover{
-        border-bottom: 1px solid #3a3a3a;
+    nav {
+        display: block;
+        position: absolute;
+        width: fit-content;
+        text-align: center;
+        right: 0;
+    }
+
+    #menu {
+        font-size: medium;
+        letter-spacing: 5px;
+        list-style-type: none;
+        color: aliceblue;
+        word-spacing: 3px;
+        position: absolute;
+        width: fit-content;
+        right: 0; /* Adjusted right position */
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    /* Large devices (laptops and desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #3a3a3a;
+            #signup {
+                text-align: center;
+                padding-left: 5px;
+            }
+
+            .centered-container {
+                max-width: 600px;
+                margin: 0 0;
+            }
+        }
+
+        #cover-text {
+            margin-bottom: 1.5em;
+            height: 10%;
+        }
+        #hero {
+            height: 800px;
+            width: 100%;
+            background: white;
+            position: relative;
+        }
+
+        /* Cosmic events */
+        #logo {
+            color: #fff;
+        }
+
+        h1 {
+            padding-top: 0%;
+        }
+
+        /* Sign up */
         #signup {
             text-align: center;
             padding-left: 5px;
         }
-        
+
         .centered-container {
             max-width: 600px;
             margin: 0 0;
         }
 
-    }
-    
-  
-
-#cover-text {
-    margin-bottom: 1.5em;
-    height: 10%;
-}
-#hero {
-    height: 800px;
-    width: 100%;
-    background: white;
-    position: relative;
-}
-
-/* Cosmic events */
-
-
-#logo {
-    color: #fff;
-}
-
-h1 {
-    padding-top: 0%;
-}
-
-/* Sign up */
-
-
-#signup {
-    text-align: center;
-    padding-left: 5px;
-}
-
-.centered-container {
-    max-width: 600px;
-    margin: 0 0;
-}
-
-
-#signup-form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.text-input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    box-sizing: border-box;
-}
-
-.radio-buttons {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-}
-
-.join-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.join-button:hover {
-    background-color: #45a049;
-}
-
-/* Media query to adjust styles for smaller screens if needed */
-@media screen and (max-width: 768px) {
-    .centered-container {
-        max-width: 90%;
-    }
-
-    /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover{
-            border-bottom: 1px solid #3a3a3a;
-            header {
-    background-color: 	#010b19;
-    padding: 1 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    font-size: medium;
-    box-shadow: 0 3px 3px white;
-    text-align: center;
-    justify-content: space-between;
-    align-items: baseline;
+        #signup-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-}
 
-}
-}
-}
+        .text-input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
