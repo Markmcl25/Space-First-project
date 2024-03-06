@@ -107,10 +107,10 @@ main {
 
 /* Hero image */
 #hero {
-    height: 900px;
+    height: 950px;
     width: 100%;
     position: relative;
-    background: url('../images/background.jpeg') no-repeat center center/cover;
+    background: url('../images/sky-space-dark-galaxy.jpg') no-repeat center center/cover;
 }
 
 
@@ -272,3 +272,4 @@ footer {
             }
         }
     }
+}
