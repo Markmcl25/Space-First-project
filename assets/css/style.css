@@ -228,63 +228,32 @@ footer {
         margin-top: 79px;
     }
 
+     /* Hero */
+     #cover-text {
+        width: 300px;
+        right: 50px;
+    }
+
+    /* Cosmic events */
+    #photos {
+        column-count: 4;
+    }
+}
+
     /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
         #menu a:hover {
             border-bottom: 1px solid #3a3a3a;
-            #signup {
-                text-align: left;
-                padding-left: 5px;
-            }
-
-            .centered-container {
-                max-width: 600px;
-                margin: 0 0;
-            }
-        }
-
-        #cover-text {
-            margin-bottom: 1.5em;
-            height: 10%;
-        }
-        #hero {
-            height: 800px;
-            width: 100%;
-            background: white;
-            position: relative;
-        }
-
-        /* Cosmic events */
-        #logo {
-            color: #fff;
-        }
-
-        h1 {
-            padding-top: 0%;
-        }
-
-        /* Sign up */
-        #signup {
-            text-align: center;
-            padding-left: 5px;
-        }
-
-        .centered-container {
-            max-width: 600px;
-            margin: 0 0;
-        }
-
-        #signup-form {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .text-input {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0;
         }
     }
-}
+        /* Cosmic events */
+        #photos {
+            column-count: 4;
+        }
+    
+        @media screen and (min-width: 1200px) {    
+            /* Reasons section */
+            #benefits {
+                display: flex;
+                flex-direction: row;
+            }
