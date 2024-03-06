@@ -51,7 +51,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -69,6 +69,7 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
+    font-size: smaller;
 }
 
 /* Nav toggle */
@@ -102,7 +103,7 @@ main {
     /* Push footer down below main and to the bottom of the page as well as make main take up the majority of the screen */
     flex: 1 0 auto;
     margin-top: 47px;
-    
+
 }
 
 /* Hero image */
@@ -116,8 +117,8 @@ main {
 
 /* Cover text */
 #cover-text {
-    background-color: #010b19ed;
-    font-size: 100%;
+    background-color: #010b19c3;
+    font-size: smaller;
     position: absolute;
     bottom: 50px;
     width: 100%;
@@ -129,30 +130,21 @@ main {
     box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.514);
 }
 
-#star-background {
-    background: url('../images/earth.jpeg');
-    height: 90vw;
-    width: 90vw;
-    max-width: 300px;
-    max-height: 300px;
-    align-items: center;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 5px white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
+
+
+
 /* Cosmic Events */
 #photos img {
     width: 100%;
     line-height: 1em;
     columns: 1;
+    z-index: 99;
     
+
 }
 
 #photos {
-    line-height: 0;
+    line-height: 1em;
 }
 
 /* Form */
@@ -163,21 +155,21 @@ main {
     padding: 20px 10% 0 10%;
     flex-grow: 1;
     width: 100%;
+    background-attachment: fixed;
 }
-
 
 #signup-form {
     color: #ffffff;
-    background-color:#010b19;
+    background-color: #010b19;
     padding: 30px;
+    width: 100%;
 }
-
 
 #signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
+    width: 100%;
 }
-
 
 .text-input {
     background: transparent;
@@ -197,13 +189,12 @@ main {
     justify-content: space-between;
 }
 
-
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #454b1b;
+    background-color: rgba(0, 0, 0, 0.5);
     color: #fafafa;
 }
 
@@ -238,6 +229,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -254,12 +246,13 @@ footer {
         color: aliceblue;
         word-spacing: 3px;
         position: absolute;
-        width: fit-content;
-        right: 0; /* Adjusted right position */
+        display: flex;
+        text-align: left;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
+        margin-right: 30px;
     }
 
     .nav-toggle-label {
@@ -278,16 +271,16 @@ footer {
         margin-top: 79px;
     }
 
-     /* Hero */
-     #cover-text {
+    /* Hero */
+    #cover-text {
         width: 100%;
-        
+
 
     /* Cosmic events */
-    #photos {
-        column-count: 3;
+        #photos {
+            column-count: 3;
+        }
     }
-}
 
     /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
@@ -295,33 +288,55 @@ footer {
             border-bottom: 1px solid #3a3a3a;
         }
     }
-        /* Cosmic events */
-        #photos {
-            column-count: 4;
+
+    /* Cosmic events */
+    #photos {
+        column-count: 3;
+    }
+
+    #cover-text {
+        width: 100%;
+        text-align: left;
+
+    #menu {
+            font-size: 110%;
+            letter-spacing: 4px;
+            list-style-type: none;
         }
-        #cover-text {
+
+        #menu>li {
+            margin-bottom: 1em;
+        }
+
+        .active {
+            border-bottom: 1px solid black;
+        }
+
+        /* Navbar styles and drop down menu */
+        nav {
+            position: absolute;
+            background-color: #010b19;
             width: 100%;
-            text-align: center;
-            
-    
-        /* Cosmic events */
-        #photos {
-            column-count: 4;
+            left: 0;
+            padding: 0 1rem;
+            box-shadow: 0 2px 2px #3a3a3a;
+            display: none;
+            top: 100%;
         }
 
-        #cover-text {
-            width: 300px;
-            right: 50px;
-    
-        /* Cosmic events */
-        #photos {
-            column-count: 4;
+        /* Nav toggle */
+        #nav-toggle:checked~nav {
+            display: block;
         }
 
-    
-        @media screen and (min-width: 1200px) {    
-          
-            }
+        #nav-toggle {
+            display: none;
         }
+
+        .nav-toggle-label {
+            font-size: 2rem;
+        }
+
+        @media screen and (min-width: 1200px) {}
     }
 }
