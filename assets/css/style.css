@@ -19,7 +19,8 @@ body {
 }
 
 /* Header */
-header {
+header { 
+
     background-color: #010b19;
     padding: 0 1rem;
     position: fixed;
@@ -110,7 +111,7 @@ main {
 #hero {
     height: 950px;
     width: 100%;
-    position: relative;
+    position:relative;
     background: url('../images/adam-miller-dBaz0xhCkPY-unsplash.webp') no-repeat center center/cover;
 }
 
@@ -225,24 +226,29 @@ footer {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
+    main {
+        margin-top: 47px;
+        overflow: auto;
+    }
+
     /* Header */
     nav {
         display: block;
-        position: absolute;
+        position: relative;
         width: fit-content;
         text-align: center;
-        padding-right: 1rem;
     }
 
     #menu {
-        font-size: medium;
-        letter-spacing: 5px;
-        list-style-type: none;
-        color: aliceblue;
-        word-spacing: 3px;
-        position: absolute;
         display: flex;
-        text-align: left;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
     }
 
     #menu>li {
@@ -264,6 +270,7 @@ footer {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
+        
     }
 
     /* Hero */
