@@ -1,39 +1,41 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Cosmic Marvels
 
-Welcome,
+## This is a static website dedicated to all things space. Information regarding all things in the cosmos as well as high quality images and tons of information on the subject. The is also a subscription page so you never miss the latest news.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Example of home page with menu up](../Space-First-project/assets/images/readmepic1.png)     ![Another example of site](../Space-First-project/assets/images/readmepic2.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+# Contents
 
-## Codeanywhere Reminders
+* Target Audience
+* Design
+* Features
+* Technologies and languages used
+* Deployment & Local Development
+* Testing
+* Credits
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+# Target Audience
 
-`python3 -m http.server`
+The target audience for the "Cosmic Marvels" website includes space enthusiasts, science and astronomy students, educational institutions, the general public with a curiosity about space, individuals interested in receiving regular updates and exclusive content related to cosmic events through newsletters, and social media users engaging with platforms for additional content and updates. The website aims to cater to both those with a scientific background and a broader audience interested in accessible information and engaging with the wonders of the cosmos.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+* Individuals interested in space exploration, astronomy, and celestial events.
+* Students studying astronomy, astrophysics, or related scientific fields who seek additional resources and information.
+* Schools, colleges, and universities looking for educational content related to space and cosmic phenomena.
+* People who have a general interest in space but may not have a scientific background. Your website could serve as an accessible platform for learning.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+# Design
 
-`http_server`
+### Color scheme
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+I went with a very rigid color scheme with the hex color #010b19 as I felt this color suited the them of space and the cosmos. RGB value is (1,11,25).
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![Color scheme](../Space-First-project/assets/images/readmecolorscheme.png)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Typography
 
-To log into the Heroku toolbelt CLI:
+I went for a Google font Jost as I felt it fitted the theme and it looks modern. Please see screenshot below. 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Google font](../Space-First-project/assets/images/readmefont.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Wireframes
 
----
-
-Happy coding!

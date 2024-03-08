@@ -115,13 +115,12 @@ main {
     background: url('../images/adam-miller-dBaz0xhCkPY-unsplash.webp') no-repeat center center/cover;
 }
 
-
 /* Cover text */
 #cover-text {
     background-color: #010b19c3;
     font-size: smaller;
     position: absolute;
-    bottom: 50px;
+    bottom: 200px;
     width: 100%;
     min-height: 200px;
     padding-top: 20px;
@@ -148,8 +147,7 @@ main {
 #signup {
     background-image: url("../images/adam-miller-dBaz0xhCkPY-unsplash.webp");
     background-size: 100%;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
+    
     flex-grow: 1;
     width: 100%;
     background-attachment: fixed;
@@ -157,7 +155,7 @@ main {
 
 #signup-form {
     color: #ffffff;
-    background-color: #010b19;
+    background-color: #010b1996;
     padding: 30px;
     width: 100%;
 }
