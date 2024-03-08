@@ -93,7 +93,7 @@ How to Clone
 Log into your account on github:
 
 
-Go to the repository of this project /adrianskelton/Projecto1/
+Go to the repository of this project Markmcl25/Space-First-project/
 Click on the code button, and copy your preferred clone link.
 Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
