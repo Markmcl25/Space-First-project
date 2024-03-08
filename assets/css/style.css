@@ -98,12 +98,20 @@ h1 {
 }
 
 
+/* Main */
+main {
+    /* Push footer down below main and to the bottom of the page as well as make main take up the majority of the screen */
+    flex: 1 0 auto;
+    margin-top: 47px;
+
+}
+
 /* Hero image */
 #hero {
     height: 950px;
     width: 100%;
     position: relative;
-    background: url('../images/jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg') no-repeat center center/cover;
+    background: url('../images/adam-miller-dBaz0xhCkPY-unsplash.webp') no-repeat center center/cover;
 }
 
 
@@ -123,6 +131,8 @@ h1 {
 }
 
 
+
+
 /* Cosmic Events */
 #photos img {
     width: 100%;
@@ -130,6 +140,7 @@ h1 {
     columns: 1;
     z-index: 99;
     
+
 }
 
 #photos {
@@ -138,7 +149,7 @@ h1 {
 
 /* Form */
 #signup {
-    
+    background-image: url("../images/adam-miller-dBaz0xhCkPY-unsplash.webp");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
