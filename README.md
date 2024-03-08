@@ -39,3 +39,93 @@ I went for a Google font Jost as I felt it fitted the theme and it looks modern.
 
 ### Wireframes
 
+Home page
+
+![Home page wireframe](../Space-First-project/assets/images/wireframe1.png)
+
+Cosmic Events
+
+![Cosmic events wireframe](../Space-First-project/assets/images/wireframe2.png)
+
+Sign up
+
+![Sign up wireframe](../Space-First-project/assets/images/wireframe3.png)
+
+# Features
+## Navbar
+I created my own nav bar that has a drop down toggle menu when in mobile mode and the options in word form on bigger screens.
+
+![Menu up](../Space-First-project/assets/images/navbar1.png)
+
+![Larger screens](../Space-First-project/assets/images/navbarlargescreen.png)
+
+Below shows the drop down menu in action.
+
+![Drop down menu](../Space-First-project/assets/images/navbar2.png)
+
+## Social media links
+
+I added four social media links to the bottom of each page that link directly to facebook, youtube, twitter and instagram.
+
+![Social media](../Space-First-project/assets/images/socialmedia.png)
+
+## Pages
+
+![Home](../Space-First-project/assets/images/page1.png)
+
+![Cosmic Marvels](../Space-First-project/assets/images/page3.png)
+
+# Technologies and languages used
+
+Github - Used for storage of my site and for publishing online.
+HTML5 - The core of the site was built with HTML version 5.
+Python - Used python 3 via terminal to preview my site using a local http server.
+CSS - CSS was used to style the website and define fonts and layout.
+Font Awesome - Social Media icons from Font Awesome.
+Google Chrome - The website was built and tested in google Chrome.
+Favicon Generator Website - Converted PNG file that I made from the logo using photoshop and converted it into a favicon on website favicon.io\
+
+# Deployment & Local Development
+
+I deployed everything my website onto gitpages.
+
+How to Clone
+Log into your account on github:
+
+
+Go to the repository of this project /adrianskelton/Projecto1/
+Click on the code button, and copy your preferred clone link.
+Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
+
+How to Fork:
+
+Log into your account on github
+Go to the repository of this project /Space-First-project/.
+Click on the code button, and copy your preferred clone link.
+Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+Type 'git clone' into the terminal, paste the link you copied in step 3 and press enter.
+
+# Testing
+
+I tested the code using Nu Html Checker.
+
+![Code test](../Space-First-project/assets/images/test1.png)
+
+Each device tested the site using the following browsers:
+
+Google Chrome
+Safari
+Firefox
+
+# Credits
+
+Font Awesome - Social Media icons from Font Awesome.
+
+Google Chrome - The website was built and tested in google Chrome.
+
+Images from Google.
+
+https://app.diagrams.net/ used for wireframe
+
+https://cloudconvert.com/md-converter for compressing images

@@ -219,6 +219,13 @@ footer {
         column-count: 2;
         column-gap: 0;
     }
+
+    #hero {
+        height: 950px;
+        width: 100%;
+        position:relative;
+        background: url('../images/adam-miller-dBaz0xhCkPY-unsplash.webp') no-repeat center center/cover;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -287,6 +294,13 @@ footer {
         #menu a:hover {
             border-bottom: 1px solid #3a3a3a;
         }
+
+        #hero {
+            height: 950px;
+            width: 100%;
+            position:relative;
+            background: url('../images/adam-miller-dBaz0xhCkPY-unsplash.webp') no-repeat center center/cover;
+        }
     }
 
     /* Cosmic events */
@@ -338,5 +352,12 @@ footer {
         }
 
         @media screen and (min-width: 1200px) {}
+    }
+
+    #hero {
+        height: 950px;
+        width: 100%;
+        position:relative;
+        background: url('../images/adam-miller-dBaz0xhCkPY-unsplash.webp') no-repeat center center/cover;
     }
 }
