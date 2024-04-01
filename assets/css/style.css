@@ -120,7 +120,7 @@ main {
     background-color: #010b19c3;
     font-size: smaller;
     position: absolute;
-    bottom: 200px;
+    bottom: 100px;
     
     width: 100%;
     min-height: 200px;
@@ -134,7 +134,7 @@ main {
 /* Form */
 #signup {
     position: fixed; /* Change position to fixed */
-    top: 47px; /* Align form below the nav bar */
+    top: 160px; /* Align form below the nav bar */
     z-index: 100; /* Ensure the form is above other elements */
     background-size: 100%;
     width: 100%;
@@ -281,7 +281,6 @@ footer {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-
 
     /* Main content */
     main {
