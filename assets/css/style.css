@@ -20,7 +20,6 @@ body {
 
 /* Header */
 header {
-
     background-color: #010b19;
     padding: 0 1rem;
     position: fixed;
@@ -38,46 +37,6 @@ header a {
     color: inherit;
 }
 
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
-}
-
-#menu>li {
-    margin-bottom: 1em;
-}
-
-.active {
-    border-bottom: 1px solid black;
-}
-
-/* Navbar styles and drop down menu */
-nav {
-    position: absolute;
-    background-color: #010b19;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
-    font-size: smaller;
-}
-
-/* Nav toggle */
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
-}
-
 h1 {
     font-family: 'Jost', sans-serif;
     color: azure;
@@ -91,13 +50,11 @@ h1 {
     padding-top: 20px;
 }
 
-
 /* Main */
 main {
     /* Push footer down below main and to the bottom of the page as well as make main take up the majority of the screen */
     flex: 1 0 auto;
     margin-top: 47px;
-
 }
 
 /* Hero image */
@@ -108,13 +65,42 @@ main {
     background: url('../images/adam-miller-dBaz0xhCkPY-unsplash.webp') no-repeat center center/cover;
 }
 
+nav {
+    position: absolute;
+    background-color: #010b19;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+   /* Nav toggle */
+   #nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
 /* Cover text */
 #cover-text {
     background-color: #010b19c3;
     font-size: smaller;
     position: absolute;
     bottom: 100px;
-
     width: 100%;
     min-height: 200px;
     padding-top: 20px;
@@ -127,34 +113,9 @@ main {
 /* Form */
 #signup {
     position: fixed;
-    /* Change position to fixed */
     top: 160px;
-    /* Align form below the nav bar */
     z-index: 100;
-    /* Ensure the form is above other elements */
     background-size: 100%;
-    width: 100%;
-    background-attachment: fixed;
-}
-
-/* Cosmic Events */
-#photos img {
-    width: 100%;
-    line-height: 1em;
-    columns: 1;
-    z-index: 99;
-}
-
-#photos {
-    line-height: 1em;
-    column-count: 3;
-}
-
-/* Form */
-#signup {
-
-    background-size: 100%;
-    flex-grow: 1;
     width: 100%;
     background-attachment: fixed;
 }
@@ -164,7 +125,6 @@ main {
     background-color: #010b1996;
     padding: 30px;
     width: 100%;
-
 }
 
 #signup-form>h2 {
@@ -237,10 +197,8 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
     main {
         margin-top: 200px;
-
     }
 
     /* Header */
@@ -257,19 +215,7 @@ footer {
 
     #menu>li {
         padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #menu>li {
-        padding-left: 1rem;
         margin-right: 30px;
-    }
-
-    .nav-toggle-label {
-        display: none;
     }
 
     #logo {
@@ -282,39 +228,36 @@ footer {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
-
     }
 
     /* Form */
     #signup {
         margin-top: 79px;
-        /* Adjust this value according to the height of your nav bar */
     }
 
     /* Hero */
     #cover-text {
         width: 100%;
-
-        /* Cosmic events */
-        #photos {
-            column-count: 3;
-        }
-
     }
 
-    /* Large devices (laptops and desktops, 992px and up) */
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 1px solid #3a3a3a;
-        }
+    /* Cosmic events */
+    #photos {
+        column-count: 3;
+    }
+}
 
-        #hero {
-            min-height: 100vh;
-            height: 100%;
-            width: 100%;
-            position: relative;
-            background: url('../images/adam-miller-dBaz0xhCkPY-unsplash.webp') no-repeat center center/cover;
-        }
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    #hero {
+        min-height: 100vh;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        background: url('../images/adam-miller-dBaz0xhCkPY-unsplash.webp') no-repeat center center/cover;
     }
 
     /* Cosmic events */
@@ -325,48 +268,48 @@ footer {
     #cover-text {
         width: 100%;
         text-align: left;
+    }
 
-        #menu {
-            font-size: 110%;
-            letter-spacing: 4px;
-            list-style-type: none;
-        }
+    #menu {
+        font-size: 110%;
+        letter-spacing: 4px;
+        list-style-type: none;
+    }
 
-        #menu>li {
-            margin-bottom: 1em;
-        }
+    #menu>li {
+        margin-bottom: 1em;
+    }
 
-        .active {
-            border-bottom: 1px solid black;
-        }
+    .active {
+        border-bottom: 1px solid black;
+    }
 
-        /* Navbar styles and drop down menu */
-        nav {
-            position: absolute;
-            background-color: #010b19;
-            width: 100%;
-            left: 0;
-            padding: 0 1rem;
-            box-shadow: 0 2px 2px #3a3a3a;
-            display: none;
-            top: 100%;
-        }
+    /* Navbar styles and drop down menu */
+    nav {
+        position: absolute;
+        background-color: #010b19;
+        width: 100%;
+        left: 0;
+        padding: 0 1rem;
+        box-shadow: 0 2px 2px #3a3a3a;
+        display: none;
+        top: 100%;
+    }
 
-        /* Nav toggle */
-        #nav-toggle:checked~nav {
-            display: block;
-        }
+    /* Nav toggle */
+    #nav-toggle:checked~nav {
+        display: block;
+    }
 
-        #nav-toggle {
-            display: none;
-        }
+    #nav-toggle {
+        display: none;
+    }
 
-        .nav-toggle-label {
-            font-size: 2rem;
-        }
+    .nav-toggle-label {
+        font-size: 2rem;
+    }
 
-        @media screen and (min-width: 1200px) {}
-
+    @media screen and (min-width: 1200px) {
         #hero {
             height: 950px;
             width: 100%;
