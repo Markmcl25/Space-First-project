@@ -10,7 +10,7 @@
 
 /* General styles */
 body {
-    min-height: 100vh;
+    
     display: flex;
     flex-direction: column;
     /* Project style */
@@ -209,6 +209,7 @@ footer {
 
     #hero {
         height: 100vh;
+        height: 100%;
         width: 100%;
         position: relative;
         background: url('../images/adam-miller-dBaz0xhCkPY-unsplash.webp') no-repeat center center/cover;
@@ -260,7 +261,6 @@ footer {
         width: 100%;
         padding-top: 20px;
         padding-bottom: 20px;
-        min-height: 950;
     }
 
     /* Cosmic events */
@@ -274,6 +274,7 @@ footer {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+        padding-left: 10px;
     }
 
     #hero {
