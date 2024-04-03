@@ -34,13 +34,18 @@ header {
 
 /* Media query for small screens (576px and below) */
 @media screen and (max-width: 576px) {
+
     /* Nav toggle */
     #nav-toggle {
-        display: block; /* Display the nav toggle button on small screens */
+        display: block;
+        /* Display the nav toggle button on small screens */
     }
+
     #photos img {
-        width: 100%; /* Make images fill the container */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%;
+        /* Make images fill the container */
+        height: auto;
+        /* Maintain aspect ratio */
     }
 }
 
@@ -67,7 +72,7 @@ main {
     /* Push footer down below main and to the bottom of the page as well as make main take up the majority of the screen */
     flex: 1 0 auto;
     margin-top: 47px;
-    
+
 }
 
 /* Hero image */
@@ -89,8 +94,8 @@ nav {
     top: 100%;
 }
 
-   /* Nav toggle */
-   #nav-toggle:checked~nav {
+/* Nav toggle */
+#nav-toggle:checked~nav {
     display: block;
 }
 
@@ -261,7 +266,7 @@ footer {
     /* Cosmic events */
     #photos img {
         column-count: 1;
-        max-width: 100%%;
+        width: 100%;
     }
 }
 
@@ -281,7 +286,8 @@ footer {
 
     /* Cosmic events */
     #photos {
-        column-count: 3;
+        column-count: 2;
+        width: 100%;
     }
 
     #cover-text {
