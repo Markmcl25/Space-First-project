@@ -1,6 +1,6 @@
  # Cosmic Marvels
 
-## This is a static website dedicated to all things space. Information regarding all things in the cosmos as well as high quality images and tons of information on the subject. The is also a subscription page so you never miss the latest news.
+## This is a static website dedicated to all things space. Information regarding all things in the cosmos as well as high quality images and tons of information on the subject. This is also a subscription page so you never miss the latest news.
 
 ![Example of home page with menu up](../Space-First-project/largescreen.png)     ![Another example of site](../Space-First-project/smallscreenexample.png)
 
