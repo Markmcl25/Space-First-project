@@ -35,7 +35,7 @@ I went with a very rigid color scheme with the hex color #010b19 as I felt this 
 
 I went for a Google font Jost as I felt it fitted the theme and it looks modern. Please see screenshot below. 
 
-![Google font](../Space-First-project/assets/images/readmefont.png)
+![Google font](./assets/images/readmefont.png)
 
 ### Wireframes
 
@@ -45,35 +45,35 @@ Home page
 
 Cosmic Events
 
-![Cosmic events wireframe](../Space-First-project/assets/images/wireframe2.png)
+![Cosmic events wireframe](./assets/images/wireframe2.png)
 
 Sign up
 
-![Sign up wireframe](../Space-First-project/assets/images/wireframe3.png)
+![Sign up wireframe](./assets/images/wireframe3.png)
 
 # Features
 ## Navbar
 I created my own nav bar that has a drop down toggle menu when in mobile mode and the options in word form on bigger screens.
 
-![Menu up](../Space-First-project/assets/images/navbar1.png)
+![Menu up](./assets/images/navbar1.png)
 
-![Larger screens](../Space-First-project/assets/images/navbarlargescreen.png)
+![Larger screens](./assets/images/navbarlargescreen.png)
 
 Below shows the drop down menu in action.
 
-![Drop down menu](../Space-First-project/assets/images/navbar2.png)
+![Drop down menu](./assets/images/navbar2.png)
 
 ## Social media links
 
 I added four social media links to the bottom of each page that link directly to facebook, youtube, twitter and instagram.
 
-![Social media](../Space-First-project/assets/images/socialmedia.png)
+![Social media](./assets/images/socialmedia.png)
 
 ## Pages
 
-![Home](../Space-First-project/assets/images/page1.png)
+![Home](./assets/images/page1.png)
 
-![Cosmic Marvels](../Space-First-project/assets/images/page3.png)
+![Cosmic Marvels](./assets/images/page3.png)
 
 # Technologies and languages used
 
@@ -110,7 +110,7 @@ Type 'git clone' into the terminal, paste the link you copied in step 3 and pres
 
 I tested the code using Nu Html Checker.
 
-![Code test](../Space-First-project/assets/images/test1.png)
+![Code test](./assets/images/test1.png)
 
 Each device tested the site using the following browsers:
 
