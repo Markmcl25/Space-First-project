@@ -75,6 +75,8 @@ I added four social media links to the bottom of each page that link directly to
 
 ![Cosmic Marvels](./assets/images/page3.png)
 
+![Cosmic Events Gallery](./assets/images/cosmic-events.png)
+
 # Technologies and languages used
 
 Github - Used for storage of my site and for publishing online.
