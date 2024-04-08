@@ -112,7 +112,10 @@ Type 'git clone' into the terminal, paste the link you copied in step 3 and pres
 
 I tested the code using Nu Html Checker.
 
-![Code test](./assets/images/test1.png)
+![Code test](./assets/images/html-checker-1.png)
+![Code test 2](./assets/images/html-checker-2.png)
+![Code test 3](./assets/images/html-checker-3.png)
+![Code test css](./assets/images/html-checker-css.png)
 
 Each device tested the site using the following browsers:
 
