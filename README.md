@@ -71,7 +71,7 @@ I added four social media links to the bottom of each page that link directly to
 
 ## Pages
 
-![Home](./assets/images/page1.png)
+![Home](./assets/images/home-screen.png)
 
 ![Cosmic Marvels](./assets/images/page3.png)
 
