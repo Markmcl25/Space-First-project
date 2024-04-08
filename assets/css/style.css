@@ -10,7 +10,6 @@
 
 /* General styles */
 body {
-    
     display: flex;
     flex-direction: column;
     /* Project style */
@@ -34,7 +33,6 @@ header {
 
 /* Media query for small screens (576px and below) */
 @media screen and (max-width: 576px) {
-
     /* Nav toggle */
     #nav-toggle {
         display: block;
@@ -72,7 +70,6 @@ main {
     /* Push footer down below main and to the bottom of the page as well as make main take up the majority of the screen */
     flex: 1 0 auto;
     margin-top: 47px;
-
 }
 
 /* Hero image */
@@ -176,7 +173,6 @@ nav {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fafafa;
 }
-
 
 /* Footer */
 #social-networks {
@@ -285,70 +281,30 @@ footer {
         background: url('../images/space-man-background.webp') no-repeat center center/cover;
     }
 
+    /* Updated styles for large devices */
     header {
         /* Updated styles */
         flex-direction: row; /* Display navigation items horizontally */
         justify-content: space-between; /* Align items to both ends of the header */
         align-items: center; /* Vertically center items */
-
-    /* Cosmic events */
-    #photos {
-        column-count: 2;
-        width: 100%;
     }
 
-    #cover-text {
-        width: 100%;
-        text-align: left;
-        font-size: larger;
+    /* Logo */
+    #logo {
+        /* Updated styles */
+        margin: 0; /* Remove margin */
+    }
+
+    /* Navigation */
+    nav {
+        /* Updated styles */
+        position: static; /* Remove absolute positioning */
+        display: flex; /* Display navigation items horizontally */
+        align-items: center; /* Vertically center items */
     }
 
     #menu {
-        font-size: 110%;
-        letter-spacing: 4px;
-        list-style-type: none;
+        /* Updated styles */
+        margin-right: 0; /* Remove right margin */
     }
-
-    #menu>li {
-        margin-bottom: 1em;
-    }
-
-    .active {
-        border-bottom: 1px solid black;
-    }
-
-    /* Navbar styles and drop down menu */
-    nav {
-        position: absolute;
-        background-color: #010b19;
-        width: 100%;
-        left: 0;
-        padding: 0 1rem;
-        box-shadow: 0 2px 2px #3a3a3a;
-        display: none;
-        top: 100%;
-    }
-
-    /* Nav toggle */
-    #nav-toggle:checked~nav {
-        display: block;
-    }
-
-    #nav-toggle {
-        display: none;
-    }
-
-    .nav-toggle-label {
-        font-size: 2rem;
-    }
-
-    @media screen and (min-width: 1200px) {
-        #hero {
-            height: 950px;
-            width: 100%;
-            position: relative;
-            background: url('../images/space-man-background.webp') no-repeat center center/cover;
-        }
-    }
-}
 }
