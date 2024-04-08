@@ -41,7 +41,7 @@ I went for a Google font Jost as I felt it fitted the theme and it looks modern.
 
 Home page
 
-![Home page wireframe](../Space-First-project/assets/images/wireframe1.png)
+![Home page wireframe](./assets/images/wireframe1.png)
 
 Cosmic Events
 
