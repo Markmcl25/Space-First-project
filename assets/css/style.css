@@ -80,7 +80,7 @@ main {
     height: 100vh;
     width: 100%;
     position: relative;
-    background: url('../images/adam-miller-dBaz0xhCkPY-unsplash.webp') no-repeat center center/cover;
+    background: url('../images/space-man-background.webp') no-repeat center center/cover;
 }
 
 nav {
@@ -212,7 +212,7 @@ footer {
         height: 100%;
         width: 100%;
         position: relative;
-        background: url('../images/adam-miller-dBaz0xhCkPY-unsplash.webp') no-repeat center center/cover;
+        background: url('../images/space-man-background.webp') no-repeat center center/cover;
     }
 }
 
@@ -225,7 +225,7 @@ footer {
     /* Header */
     nav {
         display: block;
-        position: relative;
+        position: static;
         width: fit-content;
         text-align: center;
     }
@@ -282,8 +282,14 @@ footer {
         height: 100%;
         width: 100%;
         position: relative;
-        background: url('../images/adam-miller-dBaz0xhCkPY-unsplash.webp') no-repeat center center/cover;
+        background: url('../images/space-man-background.webp') no-repeat center center/cover;
     }
+
+    header {
+        /* Updated styles */
+        flex-direction: row; /* Display navigation items horizontally */
+        justify-content: space-between; /* Align items to both ends of the header */
+        align-items: center; /* Vertically center items */
 
     /* Cosmic events */
     #photos {
@@ -341,7 +347,8 @@ footer {
             height: 950px;
             width: 100%;
             position: relative;
-            background: url('../images/adam-miller-dBaz0xhCkPY-unsplash.webp') no-repeat center center/cover;
+            background: url('../images/space-man-background.webp') no-repeat center center/cover;
         }
     }
+}
 }
