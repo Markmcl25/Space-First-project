@@ -1,4 +1,4 @@
- ### Cosmic Marvels {#custom-id}
+ ### Cosmic Marvels 
 
 ## This is a static website dedicated to all things space. Information regarding all things in the cosmos as well as high-quality images and tons of information on the subject. This is also a subscription page so you never miss the latest news.
 
