@@ -1,6 +1,6 @@
- # Cosmic Marvels
+ ### Cosmic Marvels {#custom-id}
 
-## This is a static website dedicated to all things space. Information regarding all things in the cosmos as well as high quality images and tons of information on the subject. This is also a subscription page so you never miss the latest news.
+## This is a static website dedicated to all things space. Information regarding all things in the cosmos as well as high-quality images and tons of information on the subject. This is also a subscription page so you never miss the latest news.
 
 ![Example of home page with menu up](./assets/images/largescreenexample.png)     ![Another example of site](./assets/images/smallscreenexample.png)
 
@@ -20,14 +20,14 @@ The target audience for the "Cosmic Marvels" website includes space enthusiasts,
 
 * Individuals interested in space exploration, astronomy, and celestial events.
 * Students studying astronomy, astrophysics, or related scientific fields who seek additional resources and information.
-* Schools, colleges, and universities looking for educational content related to space and cosmic phenomena.
-* People who have a general interest in space but may not have a scientific background. Your website could serve as an accessible platform for learning.
+* Schools and universities looking for educational content related to space and cosmic phenomena.
+* People who have a general interest in space but may not have a scientific background. 
 
 # Design
 
 ### Color scheme
 
-I went with a very rigid color scheme with the hex color #010b19 as I felt this color suited the them of space and the cosmos. RGB value is (1,11,25).
+I went with a very rigid color scheme with the hex color #010b19 as I felt this color suited the theme of space and the cosmos. RGB value is (1,11,25).
 
 ![Color scheme](./assets/images/readmecolorscheme.png)
 
@@ -53,19 +53,19 @@ Sign up
 
 # Features
 ## Navbar
-I created my own nav bar that has a drop down toggle menu when in mobile mode and the options in word form on bigger screens.
+I created the nav bar that has a drop down toggle menu when in mobile mode and the options in word form on bigger screens.
 
 ![Menu up](./assets/images/navbar1.png)
 
 ![Larger screens](./assets/images/navbarlargescreen.png)
 
-Below shows the drop down menu in action.
+Below shows the drop-down menu in action.
 
 ![Drop down menu](./assets/images/navbar2.png)
 
 ## Social media links
 
-I added four social media links to the bottom of each page that link directly to facebook, youtube, twitter and instagram.
+I added four social media links to the bottom of each page that link directly to Facebook, Youtube, Twitter and Instagram.
 
 ![Social media](./assets/images/socialmedia.png)
 
@@ -81,7 +81,7 @@ I added four social media links to the bottom of each page that link directly to
 
 Github - Used for storage of my site and for publishing online.
 HTML5 - The core of the site was built with HTML version 5.
-Python - Used python 3 via terminal to preview my site using a local http server.
+Python - Used python 3 via the terminal to preview my site using a local http server.
 CSS - CSS was used to style the website and define fonts and layout.
 Font Awesome - Social Media icons from Font Awesome.
 Google Chrome - The website was built and tested in google Chrome.
