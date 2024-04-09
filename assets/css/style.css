@@ -268,11 +268,10 @@ footer {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
-        padding-left: 10px;
+   
+    .nav-toggle-label {
+        display: none;
     }
-
     #hero {
         min-height: 100vh;
         height: 100%;
@@ -294,17 +293,15 @@ footer {
         /* Updated styles */
         margin: 0; /* Remove margin */
     }
+}
 
-    /* Navigation */
-    nav {
-        /* Updated styles */
-        position: static; /* Remove absolute positioning */
-        display: flex; /* Display navigation items horizontally */
-        align-items: center; /* Vertically center items */
+/* Large devices (laptops and desktops, 2200px and up) */
+@media screen and (min-width: 2200px) {
+    .nav-toggle-label {
+        display: none;
     }
-
-    #menu {
-        /* Updated styles */
-        margin-right: 0; /* Remove right margin */
+    /* Remove border from nav options */
+    header nav {
+        border: none;
     }
 }
