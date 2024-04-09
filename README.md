@@ -27,9 +27,11 @@ The target audience for the "Cosmic Marvels" website includes space enthusiasts,
 
 ### Color scheme
 
-I went with a very rigid color scheme with the hex color #010b19 as I felt this color suited the theme of space and the cosmos. RGB value is (1,11,25).
+I went with a very rigid color scheme with the hex color #010b19 and hex color #f0ffff as I felt these colors suited the themes of space and the cosmos. RGB values are (1,11,25) and (240, 255,255).
 
 ![Color scheme](./assets/images/readmecolorscheme.png)
+![Color scheme](./assets/images/azure-color.png)
+
 
 ### Typography
 
@@ -45,7 +47,7 @@ Home page
 
 Cosmic Events
 
-![Cosmic events wireframe](./assets/images/wireframe2.png)
+![Cosmic events wireframe](./assets/images/wireframe-page%202.jpeg)
 
 Sign up
 
