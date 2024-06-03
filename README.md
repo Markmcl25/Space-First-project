@@ -35,7 +35,7 @@ I went with a very rigid color scheme with the hex color #010b19 and hex color #
 
 ### Typography
 
-I went for a Google font Jost as I felt it fitted the theme and it looks modern. Please see screenshot below. 
+I went for a Google font Jost as it fit the theme and it looks modern. Please see the screenshot below. 
 
 ![Google font](./assets/images/readmefont.png)
 
@@ -61,7 +61,7 @@ I created the nav bar that has a drop down toggle menu when in mobile mode and t
 
 ![Larger screens](./assets/images/navbarlargescreen.png)
 
-Below shows the drop-down menu in action.
+Below is the drop-down menu in action.
 
 ![Drop down menu](./assets/images/navbar2.png)
 
@@ -86,15 +86,15 @@ HTML5 - The core of the site was built with HTML version 5.
 Python - Used python 3 via the terminal to preview my site using a local http server.
 CSS - CSS was used to style the website and define fonts and layout.
 Font Awesome - Social Media icons from Font Awesome.
-Google Chrome - The website was built and tested in google Chrome.
-Favicon Generator Website - Converted PNG file that I made from the logo using photoshop and converted it into a favicon on website favicon.io\
+Google Chrome - The website was built and tested in Google Chrome.
+Favicon Generator Website - I Converted PNG file that I made from the logo using Photoshop and converted into a favicon on the website favicon.io\
 
 # Deployment & Local Development
 
 I deployed everything my website onto gitpages.
 
 How to Clone
-Log into your account on github:
+Log into your account on GitHub:
 
 
 Go to the repository of this project Markmcl25/Space-First-project/
@@ -104,7 +104,7 @@ Type 'git clone' into the terminal, paste the link you copied in step 3 and pres
 
 How to Fork:
 
-Log into your account on github
+Log into your account on GitHub
 Go to the repository of this project /Space-First-project/.
 Click on the code button, and copy your preferred clone link.
 Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
@@ -113,6 +113,9 @@ Type 'git clone' into the terminal, paste the link you copied in step 3 and pres
 # Testing
 
 I tested the code using Nu Html Checker.
+I tested the CSS with https://jigsaw.w3.org/css-validator/validator.
+
+No issues in either.
 
 ![Code test](./assets/images/html-checker-1.png)
 ![Code test 2](./assets/images/html-checker-2.png)
@@ -129,7 +132,7 @@ Firefox
 
 Font Awesome - Social Media icons from Font Awesome.
 
-Google Chrome - The website was built and tested in google Chrome.
+Google Chrome - The website was built and tested using Google Chrome.
 
 Images from Google.
 
